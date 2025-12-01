@@ -1,9 +1,3 @@
-def get_book_text(book_path):
-    with open(book_path) as book:
-        book_content = book.read()
-    
-    return book_content
-
 def count_words(content):
     word_count = len(content.split())
     return word_count
